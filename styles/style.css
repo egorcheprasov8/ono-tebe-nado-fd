@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px 50px;
+  padding: 90px 50px 92px 50px;
 }
 
 .header__logo-image {
@@ -19,6 +19,8 @@
   display: flex;
   gap: 32px;
   list-style: circle;
+  font-size: 18px;
+  font-weight: 400px;
 }
 
 .header__links-item {
@@ -31,7 +33,7 @@
 }
 
 .header__address {
-  margin: 0;
+  padding-right: 20px;
   font-style: normal;
   max-width: 474px;
   justify-self: end;
@@ -213,12 +215,13 @@
 .about {
   padding-top: 120px;
   padding-bottom: 180px;
+  padding-left: 24px;
 }
 
 .about__column {
   display: grid;
   grid-template-columns: 334px repeat(1, 1fr);
-  gap: 25px;
+  gap: 13px;
   padding: 35px 5px 0px 0px;
 }
 
@@ -243,8 +246,9 @@
   flex-direction: column;
   gap: 24px;
   padding-top: 105px;
+  padding-right: 24px;
   width: 100%;
-  max-width: 693px;
+  min-width: 693px;
 }
 
 .about__title {
@@ -252,7 +256,7 @@
   font-weight: 700;
   color: black;
   line-height: 47px;
-  padding-bottom: 76px;
+  padding-bottom: 51px;
 }
 
 .about__text {
@@ -267,7 +271,7 @@
 }
 
 .text {
-  padding-bottom: 25px;
+  padding-top: 25px;
 }
 /* ПОДВАЛ */
 .footer {

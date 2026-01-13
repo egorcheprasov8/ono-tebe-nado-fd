@@ -1,1 +1,1 @@
-https://github.com/EgorCheprasov8/ono-tebe-nado.fd
+https://github.com/EgorCheprasov8/ono-tebe-nado-fd.git

@@ -216,15 +216,16 @@
 }
 /* СЕКЦИЯ ОБ АУКЦИОНЕ */
 .about {
-    margin-top: 60px;
-    padding: 55px 24px 95px 0px;
+    padding-top: 120px;
+    padding-bottom: 180px;
+    padding-left: 24px;
 }
 
 .about_column {
   display: grid;
   grid-template-columns: 334px repeat(1, 1fr);
-  gap: 13px;
-  padding: 35px 5px 0px 0px;
+  gap: 21px;
+  padding: 35px 9px 0px 0px;
 }
 
 .about_logo {
@@ -247,7 +248,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding-top: 105px;
+  padding-top: 100px;
   padding-right: 24px;
   width: 100%;
   min-width: 693px;
